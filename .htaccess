@@ -1,0 +1,31 @@
+#Enable CORS
+Header set Access-Control-Allow-Origin "*"
+
+#Keep connection alive
+Header set Connection keep-alive
+
+# Turn off MultiViews
+Options -MultiViews
+
+# Directive to ensure *.rdf files served as appropriate content type,
+# if not present in main apache config
+AddType application/rdf+xml .rdf
+AddType application/rdf+xml .owl
+AddType application/json .jsonld
+
+# Rewrite engine setup
+RewriteEngine On
+RewriteBase /water
+
+# Rewrite rule to serve HTML content from the vocabulary URI if requested
+RewriteCond %{HTTP_ACCEPT} !application/rdf\+xml.*(text/html|application/xhtml\+xml)
+RewriteCond %{HTTP_ACCEPT} text/html [OR]
+RewriteCond %{HTTP_ACCEPT} application/xhtml\+xml [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Mozilla/.*
+# RewriteRule ^terms$ http://visko.cybershare.utep.edu/lode/extract?url=http://ontology.cybershare.utep.edu/water/swim-terms.owl [R=303,L]
+RewriteRule ^terms$ https://w3id.org/lode/http://ontology.cybershare.utep.edu/water/swim-terms.owl [R=303,L]
+
+
+# Choose the default response
+  RewriteRule ^swim$ swim.jsonld [R=303]
+  RewriteRule ^terms$ swim-terms.owl [R=303]

@@ -1,0 +1,276 @@
+{
+	"@context": {
+		"@base": "http://purl.org/swim/vocab#",
+		"@vocab": "http://purl.org/swim/vocab#",
+		"swim": "http://purl.org/swim/vocab#",
+		"swim-terms" : "http://purl.org/swim/terms#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"isweb": "http://ontology.cybershare.utep.edu/ELSEWeb/elseweb-data.owl#",
+		"prov": "http://www.w3.org/ns/prov#",
+		"sch": "http://schema.org/",
+		"sio": "http://semanticscience.org/resource/",
+		"qb": "http://purl.org/linked-data/cube#",
+		"cc": "http://creativecommons.org/ns#",
+		"hydra": "https://www.w3.org/ns/hydra/core#",
+		"disco": "http://rdf-vocabulary.ddialliance.org/discovery#",
+		"gold": "http://purl.org/linguistics/gold/",
+		"dbpedia": "http://dbpedia.org/ontology/",
+
+		"cc:license": {
+			"@type": "@id"
+		},
+		"cc:attributionURL": {
+			"@type": "@id"
+		},
+
+		"label": {
+			"@id": "rdfs:label",
+			"@language": "en"
+		},
+		"comment": {
+			"@id": "rdfs:comment",
+			"@language": "en"
+		},
+		"type": {
+			"@type": "xsd:string",
+			"@id": "dc:type"
+		},
+		"paramLabel": {
+			"@id": "rdfs:label",
+			"@language": "en"
+		},
+
+		"className" : {
+			"@type": "xsd:string",
+			"@id": "swim-terms:ODMClass"
+		}, 
+		"user_type" : {
+			"@type": "xsd:string",
+			"@id": "swim-terms:UserType"
+		},
+	    "templates" : {
+			"@type": "xsd:list",
+			"@id": "swim-terms:hasTemplate"
+		}, 
+	    "adjectives" : {
+			"@type": "xsd:list",
+			"@id": "swim-terms:hasAdjective"
+		}, 
+	    "explanations" : {
+			"@type": "xsd:list",
+			"@id": "swim-terms:hasExplanation"
+		}, 
+	    "element" : {
+			"@type": "xsd:string",
+			"@id": "swim-terms:belongsTo"
+		}, 
+		"text": {
+			"@type": "xsd:string",
+			"@id": "gold:Paragraph"
+		},
+
+		"wasOutputBy": {
+			"@type": "xsd:string",
+			"@id": "prov:wasGeneratedBy"
+		},
+		"wasAttributedTo": {
+			"@type": "xsd:string",
+			"@id": "prov:wasAttributedTo"
+		},
+		"wasDerivedFrom": {
+			"@type": "xsd:string",
+			"@id": "prov:wasDerivedFrom"
+		},
+		"Modeling Agent": {
+			"@type": "xsd:string",
+			"@id": "prov:SoftwareAgent"
+		},
+		"softwareAgent": {
+			"@type": "xsd:string",
+			"@id": "prov:SoftwareAgent"
+		},
+		"hasName": {
+			"@type": "xsd:string",
+			"@id": "sch:name"
+		},
+		"hasURL": {
+			"@type": "@id",
+			"@id": "sch:url"
+		},
+		"maxValue": {
+			"@id": "isweb:hasMaximumValue",
+			"@type": "xsd:float"
+		},
+		"minValue": {
+			"@id": "isweb:hasMinimumValue",
+			"@type": "xsd:float"
+		},
+		"paramUnit": {
+			"@id": "isweb:Unit",
+			"@type": "xsd:string"
+		},
+		"focus_area" : {
+			"@id": "swim-terms:FocusArea",
+			"@type": "xsd:string"
+		},	
+		"paramDescription": {
+			"@id": "dc:description",
+			"@type": "xsd:string"
+		},
+		"paramCategory": {
+			"@id": "sio:SIO_000137",
+			"@type": "xsd:string"
+		},
+		"category": {
+			"@id": "sio:SIO_000137",
+			"@type": "xsd:string"
+		},
+		"paramDefaultSource": {
+			"@id": "dc:source",
+			"@type": "xsd:string"
+		},
+		"paramValue": {
+			"@id": "qb:dataSet",
+			"@type": "xsd:string"
+		},
+		"value": {
+			"@id": "sio:SIO_000300",
+			"@type": "xsd:string"
+		},
+		"modelName": {
+			"@id": "sch:name",
+			"@type": "xsd:string"
+		},
+		"modelDescription": {
+			"@id": "sch:description",
+			"@type": "xsd:string"
+		},
+		"dateCreated": {
+			"@id": "dcterms:created",
+			"@type": "xsd:date"
+		},
+		"dateModified": {
+			"@id": "dcterms:modified",
+			"@type": "xsd:date"
+		},
+		"license": {
+			"@id": "dcterms:license",
+			"@type": "xsd:string"
+		},
+		"version": {
+			"@id": "sch:version",
+			"@type": "xsd:string"
+		},
+		"sponsor": {
+			"@id": "sch:sponsor",
+			"@type": "xsd:string"
+		},
+		"creators": {
+			"@id": "dcterms:creator",
+			"@type": "dcterms:creator"
+		},
+		"name": {
+			"@id": "sch:name",
+			"@type": "xsd:string"
+		},
+		"department": {
+			"@id": "sch:department",
+			"@type": "xsd:string"
+		},
+		"email": {
+			"@id": "sch:email",
+			"@type": "xsd:string"
+		},
+		"organization": {
+			"@id": "sch:Organization",
+			"@type": "xsd:string"
+		},
+		"city": {
+			"@id": "sch:City",
+			"@type": "xsd:string"
+		},
+		"state": {
+			"@id": "sch:State",
+			"@type": "xsd:string"
+		},
+		"country": {
+			"@id": "sch:Country",
+			"@type": "xsd:string"
+		},
+
+		"serverName": {
+			"@id": "sch:name",
+			"@type": "xsd:string"
+		},
+		"serverIP": {
+			"@id": "sio:SIO_001322",
+			"@type": "xsd:string"
+		},
+		"serverAdmin": {
+			"@id": "sch:name",
+			"@type": "xsd:string"
+		},
+		"adminEmail": {
+			"@id": "sch:email",
+			"@type": "xsd:string"
+		},
+		"serviceURL": {
+			"@id": "sch:url",
+			"@type": "xsd:anyURI"
+		},
+		"serviceMethod": {
+			"@id": "hydra:method",
+			"@type": "xsd:string"
+		},
+		"status": {
+			"@id": "sio:SIO_001326",
+			"@type": "xsd:string"
+		},
+		"consumes": {
+			"@id": "sch:contentType",
+			"@type": "xsd:string"
+		},
+		"produces": {
+			"@id": "sch:contentType",
+			"@type": "xsd:string"
+		},
+		"isPublic": {
+			"@id": "sch:Boolean",
+			"@type": "xsd:boolean"
+		},
+		"externalDocs": {
+			"@id": "disco:externalDocumentation",
+			"@type": "xsd:anyURI"
+		},
+		"_id": {
+			"@id": "sio:SIO_000675",
+			"@type": "xsd:string"
+		},
+		"description": {
+			"@id": "dc:description",
+			"@type": "xsd:string"
+		},
+		"region": {
+			"@id": "dbpedia:region",
+			"@type": "xsd:string"
+		},
+		"lang": {
+			"@id": "dcterms:language",
+			"@type": "xsd:string"
+		}
+
+	},
+	"@id": "http://purl.org/swim/vocab",
+	"label": "Sustainable Water through Integrated Modeling Vocabulary",
+	"comment": "A mapping of SWIM terms to published vocabularies",
+	"dcterms:rights": "Copyright © 2015-2021",
+	"dcterms:publisher": "The University of Texas at El Paso",
+	"ccterms:license": "http://creativecommons.org/licenses/by/4.0/",
+	"ccterms:attributionURL": "https://swim.cybershare.utep.edu/",
+	"sponsor": "National Science Foundation Grant No. 1835897"
+
+}
