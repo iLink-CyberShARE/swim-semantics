@@ -7,7 +7,7 @@ SWIM Vocabulary Base: http://purl.org/swim/vocab
 SWIM Terms Ontology: https://w3id.org/lode/http://ontology.cybershare.utep.edu/water/swim-terms.owl
 
 ## Contributors
-Luis Garnica Chavira - UTEP
+Luis Garnica Chavira - UTEP   
 Raul Alejandro Vargas - UTEP
 
 ## Acknowledgements
