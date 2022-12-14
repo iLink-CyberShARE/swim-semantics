@@ -4,7 +4,7 @@ RDF ontologies and JSON-LD context files used to annotate data from the SWIM Pro
 
 SWIM Vocabulary Base: http://purl.org/swim/vocab
 
-SWIM Terms Ontology: https://w3id.org/lode/http://ontology.cybershare.utep.edu/water/swim-terms.owl
+SWIM Terms Ontology: https://w3id.org/lode/https://purl.org/swim/terms
 
 SWIM Data Reconciliation Ontology: https://w3id.org/lode/https://purl.org/swim/data-reconciliation 
 
