@@ -261,7 +261,169 @@
 		"lang": {
 			"@id": "dcterms:language",
 			"@type": "xsd:string"
+		},
+		
+
+		
+		"serverOwner":{
+			"@id": "sch:Organization",
+			"@type" : "xsd:string"
+		},
+		"scenarioID": {
+			"@id": "sch:identifier",
+			"@type" : "xsd:string"
+		},
+		"modelId": {
+			"@id":"sch:identifier",
+			"@type":"xsd:string"
+		},
+		"varname": {
+			"@id":"sch:name",
+			"@type":"xsd:string"
+		},
+		"info": {
+			"@id":"sio:SIO_000015",
+			"@type":"xsd:list"
+		},
+		"hostServer": {
+			"@id":"sio:SIO_000015",
+			"@type":"xsd:list"
+		},
+		"serverAddress": {
+			"@id":"sch:url",
+			"@type":"xsd:string"
+		},
+		"serviceInfo": {
+			"@id":"sio:SIO_000015",
+			"@type":"xsd:list"
+		},
+		"hideTools": {
+			"@id":"sio:SIO_000015",
+			"@type":"xsd:boolean"
+		},
+		"outputFilter": {
+			"@id":"sch:ItemList",
+			"@type":"xsd:list"
+		},
+		"varCategory": {
+			"@id": "sio:SIO_000137",
+			"@type": "xsd:string"
+		},
+		"varDescription": {
+			"@id": "sch:description",
+			"@type": "xsd:string"
+		},
+		"varUnit": {
+			"@id":"isweb:Unit",
+			"@type":"xsd:string"
+		},
+		"_cls": {
+			"@id":"sio:SIO_001166",
+			"@type":"xsd:string"
+		},
+		"userId": {
+			"@id":"sch:identifier",
+			"@type":"xsd:string"
+		},
+		"startedAtTime": {
+			"@id":"sch:StartTime",
+			"@type":"sch:Time"
+		},
+		"endedAtTime": {
+			"@id":"sch:EndTime",
+			"@type":"sch:Time"
+		},
+		"dataType": {
+			"@id":"sch:dataType",
+			"@type":"xsd:string"
+		},
+		"paramName": {
+			"@id":"sch:name",
+			"@type":"xsd:string"
+		},
+		"definitionType": {
+			"@id":"sio:SIO_001166",
+			"@type":"xsd:string"
+		},
+		"structType": {
+			"@id":"sio:SIO_001166",
+			"@type":"xsd:string"
+		},
+		"paramInfo": {
+			"@id":"sio:SIO_000015",
+			"@type":"xsd:list"
+		},
+		"paramDefaultValue": {
+			"@id":"sio:SIO_000052",
+			"@type":"xsd:float"
+		},
+		"sourceLink": {
+			"@id":"sch:url",
+			"@type":"xsd:string"
+		},
+		"order": {
+			"@id":"sch:position",
+			"@type":"xsd:integer"
+		},
+		"title": {
+			"@id":"sch:name",
+			"@type":"xsd:string"
+		},
+		"sourceLabel": {
+			"@id":"rdfs:label",
+			"@type":"xsd:string"
+		},
+		"appendix": {
+			"@id":"sio:SIO_001166",
+			"@type":"xsd:string"
+		},
+		"imgSource": {
+			"@id":"sch:url",
+			"@type":"xsd:string"
+		},
+		"imgCitation": {
+			"@id":"sch:citation",
+			"@type":"xsd:string"
+		},
+		"paramShow": {
+			"@id":"sio:SIO_000268",
+			"@type":"xsd:boolean"
+		},
+		"modelCatalog": {
+			"@id":"sio:SIO_001241",
+			"@type":"@id"
+		},
+		"canndeScenario": {
+			"@id":"sio:SIO_000090",
+			"@type":"@id"
+		},
+		"outputCatalog": {
+			"@id":"sio:SIO_001241",
+			"@type":"@id"
+		},
+		"privateScenario": {
+			"@id":"sio:SIO_000090",
+			"@type":"@id"
+		},
+		"themeCatalog": {
+			"@id":"sio:SIO_001241",
+			"@type":"@id"
+		},
+		"modelSettings": {
+			"@id":"swim-terms:Setting",
+			"@type":"xsd:list"
+		},
+		"modelInputs": {
+			"@id":"swim-terms:input",
+			"@type":"xsd:list"
+		},
+		"modelOutputs": {
+			"@id":"swim-terms:output",
+			"@type":"xsd:list"
 		}
+
+
+
 
 	},
 	"@id": "http://purl.org/swim/vocab",
@@ -272,5 +434,4 @@
 	"ccterms:license": "http://creativecommons.org/licenses/by/4.0/",
 	"ccterms:attributionURL": "https://swim.cybershare.utep.edu/",
 	"sponsor": "National Science Foundation Grant No. 1835897"
-
 }
