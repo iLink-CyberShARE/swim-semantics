@@ -263,8 +263,6 @@
 			"@type": "xsd:string"
 		},
 		
-
-		
 		"serverOwner":{
 			"@id": "sch:Organization",
 			"@type" : "xsd:string"
@@ -421,8 +419,6 @@
 			"@id":"swim-terms:output",
 			"@type":"xsd:list"
 		}
-
-
 
 
 	},

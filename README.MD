@@ -12,7 +12,7 @@ SWIM Data Reconciliation Ontology: https://w3id.org/lode/https://purl.org/swim/d
 Luis Garnica Chavira - UTEP   
 Raul Alejandro Vargas - UTEP   
 Natalia Villanueva-Rosales - UTEP
-Lani Godenzi - UTEP       
+Lani Godenzi - UTEP
 
 ## Acknowledgements
 This material is based upon work supported by the National Science Foundation (NSF) under Grant No. 1835897.   
