@@ -20,6 +20,18 @@ Peroni, S., Shotton, D., Vitali, F. (2012). The Live OWL Documentation Environme
 
 Peroni, S., Shotton, D., Vitali, F. (2013). Tools for the automatic generation of ontology documentation: a task-based evaluation. To appear in International Journal on Semantic Web and Information Systems, 9 (1). Available at http://speroni.web.cs.unibo.it/publications/peroni-2013-tools-automatic-generation.pdf   
 
+## How to cite
+If you create products such as publications using SWIM products, it would be great if you add the  following acknowledgement:   
+
+"This work used the Sustainable Water for Integrated Modeling (SWIM) 2.0, which was supported by the National Science Foundation under Grant No. 1835897."  
+
+Please use the following citation for this product:     
+
+Supporting Regional Water Sustainability Decision-Making through Integrated Modeling
+Garnica Chavira L., Villanueva-Rosales N., Heyman J., Pennington D., Salas K.
+2022 IEEE 8th International Smart Cities Conference, Paphos, Cyprus. September 26-29, 2022.
+DOI 10.1109/ISC255366.2022.9922004   
+
 ## Acknowledgements
 This material is based upon work supported by the National Science Foundation (NSF) under Grant No. 1835897.   
 
